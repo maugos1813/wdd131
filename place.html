@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Explore Temple Roma</title>
   <meta name="description" content="Discover the beauty and weather of Temple Roma with this responsive web page layout using HTML, CSS, and JavaScript.">
-  <meta name="author" content="Mauro Agostinelli">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <meta name="author" content="Tu Nombre Aquí" />
+  <title>Explore Temple Roma</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  
+  <!-- CSS -->
   <link rel="stylesheet" href="styles/place.css" />
+  
+  <!-- JavaScript -->
   <script src="scripts/place.js" defer></script>
 </head>
 <body>
@@ -20,12 +26,12 @@
       <picture>
         <source srcset="images/hero-small.webp" media="(max-width: 500px)" />
         <source srcset="images/hero-medium.webp" media="(max-width: 1000px)" />
-        <img src="images/hero-medium.webp" alt="Scenic view of [Place Name]" />
+        <img src="images/hero-medium.webp" alt="Scenic view of Temple Roma" />
       </picture>
     </section>
 
     <section class="weather">
-      <h2>Weather <span class="weather-icon">⛅</span></h2>
+      <h2>Weather <span class="weather-icon"></span></h2>
       <p>Temperature: <span id="temp">45</span> °F</p>
       <p>Wind Speed: <span id="speed">10</span> mph</p>
       <p>Wind Chill: <span id="chill">Calculating...</span></p>
@@ -37,4 +43,3 @@
   </footer>
 </body>
 </html>
- 
