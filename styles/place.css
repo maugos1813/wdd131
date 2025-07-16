@@ -30,29 +30,21 @@
     text-align: center;
   }
   
-  /* Weather icon styles */
-  .weather-icon {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    vertical-align: middle;
-    margin-left: 0.5rem;
+  .weather h2::after {
+    content: " ⛅";
   }
   
-  /* Desktop view: emoji icon */
-  @media screen and (min-width: 501px) {
-    .weather-icon::before {
-      content: "⛅";
-      font-size: 1.2rem;
-    }
-  }
-  
-  /* Mobile view: SVG icon */
   @media screen and (max-width: 500px) {
-    .weather-icon {
-      background-image: url('../images/weather-icon.svg');
-      background-size: contain;
-      background-repeat: no-repeat;
+    .weather h2::after {
+      content: "";
+    }
+  
+    .weather h2::after {
+      background: url('../images/weather-icon.svg') no-repeat center;
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
     }
   }
   
