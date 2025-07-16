@@ -30,14 +30,12 @@
     text-align: center;
   }
   
-  /* ⛅ Emoji por defecto para escritorio usando ::after */
   .weather h2::after {
     content: " ⛅";
     font-size: 1.2rem;
     vertical-align: middle;
   }
   
-  /* Responsive mobile: reemplaza emoji con SVG */
   @media screen and (max-width: 500px) {
     .weather h2::after {
       content: "";
@@ -52,7 +50,6 @@
     }
   }
   
-  /* Desktop: oculta SVG */
   @media screen and (min-width: 501px) {
     .weather-icon img {
       display: none;
