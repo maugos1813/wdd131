@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore [Place Name]</title>
+  <link rel="stylesheet" href="styles/place.css" />
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Temple Roma</h1>
+  </header>
+
+  <main>
+    <section class="hero">
+      <picture>
+        <source srcset="images/hero-small.webp" media="(max-width: 500px)" />
+        <source srcset="images/hero-medium.webp" media="(max-width: 1000px)" />
+        <img src="images/hero-medium.webp" alt="Scenic view of [Place Name]" />
+      </picture>
+    </section>
+
+    <section class="weather">
+      <h2>Weather <span class="weather-icon">⛅</span></h2>
+      <p>Temperature: <span id="temp">45</span> °F</p>
+      <p>Wind Speed: <span id="speed">10</span> mph</p>
+      <p>Wind Chill: <span id="chill">Calculating...</span></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> | Last Modified: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
+ 
