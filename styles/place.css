@@ -4,9 +4,12 @@
     --accent-color: #ff0000;
     --text-color: #333;
   }
+
+  * {
+    font-family: 'Roboto', sans-serif;
+  }
   
   body {
-    font-family: 'Roboto', sans-serif;
     margin: 0;
     background-color: var(--secondary-color);
     color: var(--text-color);
