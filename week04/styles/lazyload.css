@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  }
+  
+  img {
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  /* Animación para hacer fade desde negro */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      filter: brightness(0);
+    }
+    100% {
+      opacity: 1;
+      filter: brightness(1);
+    }
+  }
+  
+  footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+  }
+  
