@@ -1,8 +1,9 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
+
 
 header, footer {
   background-color: #444;
@@ -37,4 +38,39 @@ nav button {
   width: 100%;
   height: auto;
   border-radius: 4px;
+}
+
+footer nav {
+  margin-top: 1rem;
+}
+
+footer nav p {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+footer li {
+  margin: 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+footer a:hover {
+  color: #ccc;
+  text-decoration: underline;
 }
