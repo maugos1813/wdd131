@@ -1,0 +1,47 @@
+body {
+    background-color: #f0f4f8;
+    color: #2c2c2c;
+    font-family: 'Roboto', sans-serif;
+    margin: 2rem;
+    line-height: 1.6;
+  }
+  
+  h1, h2 {
+    color: #0066cc;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  code {
+    background: #e0e0e0;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  
+  /* Nueva clase para centrar títulos e imágenes */
+  .wire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .wire img {
+    height: 500px;
+    object-fit: contain;
+    margin-top: 1rem;
+  }
+  
